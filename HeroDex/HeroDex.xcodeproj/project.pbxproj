@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DABB2D02A7C291200A8F485 /* SpeechIndicatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABB2CF2A7C291200A8F485 /* SpeechIndicatorComponent.swift */; };
+		8DC201C92A78C3C500E7C99E /* HeroDexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC201C82A78C3C500E7C99E /* HeroDexApp.swift */; };
+		8DC201CB2A78C3C500E7C99E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC201CA2A78C3C500E7C99E /* ContentView.swift */; };
+		8DC201CD2A78C3C600E7C99E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC201CC2A78C3C600E7C99E /* Assets.xcassets */; };
+		8DC201D12A78C3C600E7C99E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC201D02A78C3C600E7C99E /* Preview Assets.xcassets */; };
+		8DC201DB2A78C3C700E7C99E /* HeroDexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC201DA2A78C3C700E7C99E /* HeroDexTests.swift */; };
+		8DC201E52A78C3C700E7C99E /* HeroDexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC201E42A78C3C700E7C99E /* HeroDexUITests.swift */; };
+		8DC201E72A78C3C700E7C99E /* HeroDexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC201E62A78C3C700E7C99E /* HeroDexUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DC201D72A78C3C700E7C99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DC201BD2A78C3C500E7C99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC201C42A78C3C500E7C99E;
+			remoteInfo = HeroDex;
+		};
+		8DC201E12A78C3C700E7C99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DC201BD2A78C3C500E7C99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC201C42A78C3C500E7C99E;
+			remoteInfo = HeroDex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DABB2CF2A7C291200A8F485 /* SpeechIndicatorComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechIndicatorComponent.swift; sourceTree = "<group>"; };
+		8DC201C52A78C3C500E7C99E /* HeroDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC201C82A78C3C500E7C99E /* HeroDexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDexApp.swift; sourceTree = "<group>"; };
+		8DC201CA2A78C3C500E7C99E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DC201CC2A78C3C600E7C99E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DC201CE2A78C3C600E7C99E /* HeroDex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeroDex.entitlements; sourceTree = "<group>"; };
+		8DC201D02A78C3C600E7C99E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DC201D62A78C3C700E7C99E /* HeroDexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroDexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC201DA2A78C3C700E7C99E /* HeroDexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDexTests.swift; sourceTree = "<group>"; };
+		8DC201E02A78C3C700E7C99E /* HeroDexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroDexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC201E42A78C3C700E7C99E /* HeroDexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDexUITests.swift; sourceTree = "<group>"; };
+		8DC201E62A78C3C700E7C99E /* HeroDexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC201C22A78C3C500E7C99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC201D32A78C3C700E7C99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC201DD2A78C3C700E7C99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DABB2CC2A7C28CC00A8F485 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				8DABB2CE2A7C28F700A8F485 /* Components */,
+				8DABB2CD2A7C28DC00A8F485 /* HeroDex */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		8DABB2CD2A7C28DC00A8F485 /* HeroDex */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HeroDex;
+			sourceTree = "<group>";
+		};
+		8DABB2CE2A7C28F700A8F485 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8DABB2CF2A7C291200A8F485 /* SpeechIndicatorComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8DC201BC2A78C3C500E7C99E = {
+			isa = PBXGroup;
+			children = (
+				8DC201C72A78C3C500E7C99E /* HeroDex */,
+				8DC201D92A78C3C700E7C99E /* HeroDexTests */,
+				8DC201E32A78C3C700E7C99E /* HeroDexUITests */,
+				8DC201C62A78C3C500E7C99E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DC201C62A78C3C500E7C99E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC201C52A78C3C500E7C99E /* HeroDex.app */,
+				8DC201D62A78C3C700E7C99E /* HeroDexTests.xctest */,
+				8DC201E02A78C3C700E7C99E /* HeroDexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DC201C72A78C3C500E7C99E /* HeroDex */ = {
+			isa = PBXGroup;
+			children = (
+				8DABB2CC2A7C28CC00A8F485 /* Module */,
+				8DC201C82A78C3C500E7C99E /* HeroDexApp.swift */,
+				8DC201CA2A78C3C500E7C99E /* ContentView.swift */,
+				8DC201CC2A78C3C600E7C99E /* Assets.xcassets */,
+				8DC201CE2A78C3C600E7C99E /* HeroDex.entitlements */,
+				8DC201CF2A78C3C600E7C99E /* Preview Content */,
+			);
+			path = HeroDex;
+			sourceTree = "<group>";
+		};
+		8DC201CF2A78C3C600E7C99E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DC201D02A78C3C600E7C99E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DC201D92A78C3C700E7C99E /* HeroDexTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DC201DA2A78C3C700E7C99E /* HeroDexTests.swift */,
+			);
+			path = HeroDexTests;
+			sourceTree = "<group>";
+		};
+		8DC201E32A78C3C700E7C99E /* HeroDexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DC201E42A78C3C700E7C99E /* HeroDexUITests.swift */,
+				8DC201E62A78C3C700E7C99E /* HeroDexUITestsLaunchTests.swift */,
+			);
+			path = HeroDexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DC201C42A78C3C500E7C99E /* HeroDex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC201EA2A78C3C700E7C99E /* Build configuration list for PBXNativeTarget "HeroDex" */;
+			buildPhases = (
+				8DC201C12A78C3C500E7C99E /* Sources */,
+				8DC201C22A78C3C500E7C99E /* Frameworks */,
+				8DC201C32A78C3C500E7C99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroDex;
+			productName = HeroDex;
+			productReference = 8DC201C52A78C3C500E7C99E /* HeroDex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DC201D52A78C3C700E7C99E /* HeroDexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC201ED2A78C3C700E7C99E /* Build configuration list for PBXNativeTarget "HeroDexTests" */;
+			buildPhases = (
+				8DC201D22A78C3C700E7C99E /* Sources */,
+				8DC201D32A78C3C700E7C99E /* Frameworks */,
+				8DC201D42A78C3C700E7C99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DC201D82A78C3C700E7C99E /* PBXTargetDependency */,
+			);
+			name = HeroDexTests;
+			productName = HeroDexTests;
+			productReference = 8DC201D62A78C3C700E7C99E /* HeroDexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DC201DF2A78C3C700E7C99E /* HeroDexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC201F02A78C3C700E7C99E /* Build configuration list for PBXNativeTarget "HeroDexUITests" */;
+			buildPhases = (
+				8DC201DC2A78C3C700E7C99E /* Sources */,
+				8DC201DD2A78C3C700E7C99E /* Frameworks */,
+				8DC201DE2A78C3C700E7C99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DC201E22A78C3C700E7C99E /* PBXTargetDependency */,
+			);
+			name = HeroDexUITests;
+			productName = HeroDexUITests;
+			productReference = 8DC201E02A78C3C700E7C99E /* HeroDexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DC201BD2A78C3C500E7C99E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8DC201C42A78C3C500E7C99E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8DC201D52A78C3C700E7C99E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8DC201C42A78C3C500E7C99E;
+					};
+					8DC201DF2A78C3C700E7C99E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8DC201C42A78C3C500E7C99E;
+					};
+				};
+			};
+			buildConfigurationList = 8DC201C02A78C3C500E7C99E /* Build configuration list for PBXProject "HeroDex" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DC201BC2A78C3C500E7C99E;
+			productRefGroup = 8DC201C62A78C3C500E7C99E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC201C42A78C3C500E7C99E /* HeroDex */,
+				8DC201D52A78C3C700E7C99E /* HeroDexTests */,
+				8DC201DF2A78C3C700E7C99E /* HeroDexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC201C32A78C3C500E7C99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC201D12A78C3C600E7C99E /* Preview Assets.xcassets in Resources */,
+				8DC201CD2A78C3C600E7C99E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC201D42A78C3C700E7C99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC201DE2A78C3C700E7C99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC201C12A78C3C500E7C99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC201CB2A78C3C500E7C99E /* ContentView.swift in Sources */,
+				8DC201C92A78C3C500E7C99E /* HeroDexApp.swift in Sources */,
+				8DABB2D02A7C291200A8F485 /* SpeechIndicatorComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC201D22A78C3C700E7C99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC201DB2A78C3C700E7C99E /* HeroDexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC201DC2A78C3C700E7C99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC201E72A78C3C700E7C99E /* HeroDexUITestsLaunchTests.swift in Sources */,
+				8DC201E52A78C3C700E7C99E /* HeroDexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DC201D82A78C3C700E7C99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC201C42A78C3C500E7C99E /* HeroDex */;
+			targetProxy = 8DC201D72A78C3C700E7C99E /* PBXContainerItemProxy */;
+		};
+		8DC201E22A78C3C700E7C99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC201C42A78C3C500E7C99E /* HeroDex */;
+			targetProxy = 8DC201E12A78C3C700E7C99E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8DC201E82A78C3C700E7C99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DC201E92A78C3C700E7C99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8DC201EB2A78C3C700E7C99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeroDex/HeroDex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeroDex/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucasbenitez.HeroDex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DC201EC2A78C3C700E7C99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeroDex/HeroDex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeroDex/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucasbenitez.HeroDex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DC201EE2A78C3C700E7C99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucasbenitez.HeroDexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroDex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroDex";
+			};
+			name = Debug;
+		};
+		8DC201EF2A78C3C700E7C99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucasbenitez.HeroDexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroDex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroDex";
+			};
+			name = Release;
+		};
+		8DC201F12A78C3C700E7C99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucasbenitez.HeroDexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroDex;
+			};
+			name = Debug;
+		};
+		8DC201F22A78C3C700E7C99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucasbenitez.HeroDexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroDex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DC201C02A78C3C500E7C99E /* Build configuration list for PBXProject "HeroDex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC201E82A78C3C700E7C99E /* Debug */,
+				8DC201E92A78C3C700E7C99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC201EA2A78C3C700E7C99E /* Build configuration list for PBXNativeTarget "HeroDex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC201EB2A78C3C700E7C99E /* Debug */,
+				8DC201EC2A78C3C700E7C99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC201ED2A78C3C700E7C99E /* Build configuration list for PBXNativeTarget "HeroDexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC201EE2A78C3C700E7C99E /* Debug */,
+				8DC201EF2A78C3C700E7C99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC201F02A78C3C700E7C99E /* Build configuration list for PBXNativeTarget "HeroDexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC201F12A78C3C700E7C99E /* Debug */,
+				8DC201F22A78C3C700E7C99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DC201BD2A78C3C500E7C99E /* Project object */;
+}
